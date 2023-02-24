@@ -1,0 +1,12 @@
+.home {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: min-content;
+  gap: 1.5rem;
+}
+
+@media (min-width: 800px) {
+  .home {
+    grid-template-columns: minmax(min-content, 430px) 1fr;
+  }
+}

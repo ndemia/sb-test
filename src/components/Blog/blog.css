@@ -1,0 +1,5 @@
+.blog {
+  background-color: var(--white);
+  padding: 1.5rem;
+  align-self: flex-start;
+}

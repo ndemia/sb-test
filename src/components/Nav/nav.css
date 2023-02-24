@@ -1,0 +1,20 @@
+.nav__link {
+  color: var(--white);
+  font-size: 1rem;
+  margin: 0 1rem;
+  text-decoration: none;
+}
+
+.nav__link:hover {
+  background-color: var(--primary);
+}
+
+.active {
+  border-bottom: 2px solid var(--primary);
+}
+
+@media (min-width: 480px) {
+  .nav__link {
+    font-size: 1.25rem;
+  }
+}
