@@ -13,7 +13,7 @@ export default function useFetch(url, fetchContext, postsPerPage) {
       url += '/categories';
       break;
     default:
-      console.log('URL is missing');
+      console.log('URL is missing!');
   }
 
   // If limit is defined, add it to the URL
